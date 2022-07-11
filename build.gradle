@@ -4,7 +4,7 @@ plugins {
     id 'maven-publish'
 }
 
-group 'com.scarabcoder'
+group 'com.github.scarabcoder'
 version '1.0-SNAPSHOT'
 
 
