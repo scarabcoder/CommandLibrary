@@ -15,6 +15,21 @@ repositories {
     maven { url "https://maven.enginehub.org/repo/" }
 }
 
+
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'com.scarabcoder'
+            artifactId = 'CommandLibrary'
+            version = '0.1'
+
+            from components.kotlin
+        }
+    }
+}
+
+
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
     compileOnly("io.papermc.paper:paper-api:1.19-R0.1-SNAPSHOT")

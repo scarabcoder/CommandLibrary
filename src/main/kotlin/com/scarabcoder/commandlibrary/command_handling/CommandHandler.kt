@@ -7,11 +7,9 @@ import com.scarabcoder.commandlibrary.api.RootCommandSection
 import com.scarabcoder.commandlibrary.command_handling.command.ICommandWithUsage
 import com.scarabcoder.commandlibrary.command_handling.command.ResolvedCommandSection
 import com.scarabcoder.commandlibrary.exception.ParameterParseException
-import com.scarabcoder.example.CommandLibraryExample
 import net.kyori.adventure.text.Component
 import net.kyori.adventure.text.event.ClickEvent
 import net.kyori.adventure.text.event.HoverEvent
-import net.kyori.adventure.text.event.HoverEventSource
 import net.kyori.adventure.text.format.NamedTextColor
 import net.kyori.adventure.text.format.TextDecoration
 import net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer
